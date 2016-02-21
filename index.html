@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title> Kevin's Website </title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="fonts.css"/>
+    <script src="js/jquery-2.1.4.js"> </script>
+
+    <script>
+        $(document).ready(function() {
+            $("#welcome").hide().delay(250).fadeIn(2000);
+            $("#name").hide().delay(1000).fadeIn(2000);
+        })
+
+    </script>
+</head>
+
+<body id="Home">
+
+    <div id="container">
+
+        <div id="nav">
+            <ul>
+                <li id="Home"><a href="#Home" class="nav_sel"> Home </a></li>
+                <li id="About"><a href="#About">  About </a></li>
+                <li id="Projects"><a href="#Projects">  Projects </a></li>
+                <li id="Contact"><a href="#Contact">  Contact </a></li>
+            </ul>
+        </div>
+
+        <h1 id="welcome"> Welcome </h1>
+
+        <h1 id="name"> Hello, my name is Kevin Zhang </h1>
+
+        
+
+    </div>
+
+</body>
+
+</html>
+

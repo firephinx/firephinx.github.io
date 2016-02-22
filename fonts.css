@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Gentium Basic Regular Font */
+
+@font-face {
+    font-family: 'gentium_basicregular';
+    src: url('fonts/genbasr-webfont.eot');
+    src: url('fonts/genbasr-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/genbasr-webfont.woff2') format('woff2'),
+         url('fonts/genbasr-webfont.woff') format('woff'),
+         url('fonts/genbasr-webfont.ttf') format('truetype'),
+         url('fonts/genbasr-webfont.svg#gentium_basicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Allura Regular Font */
+
+@font-face {
+    font-family: 'alluraregular';
+    src: url('fonts/allura-regular-webfont.eot');
+    src: url('fonts/allura-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/allura-regular-webfont.woff2') format('woff2'),
+         url('fonts/allura-regular-webfont.woff') format('woff'),
+         url('fonts/allura-regular-webfont.ttf') format('truetype'),
+         url('fonts/allura-regular-webfont.svg#alluraregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
